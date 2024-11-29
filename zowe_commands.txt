@@ -1,0 +1,5 @@
+Useful zowe commands to backup zXplorer datasets and files:
+
+To download all the members of a dataset from mainframe to USS directory /z/zXXXX:
+
+zowe zos-files download all-members <dataset name> --host 204.90.115.200 --port 10443 --user <zXXXX> --password <password> --ru false --directory /z/zXXXX/<folder name>
